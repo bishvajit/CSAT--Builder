@@ -1,18 +1,67 @@
-# React + Vite
+# CSAT Campaign Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive CSAT (Customer Satisfaction) Campaign Builder built with React and Vite. The application enables users to configure customer feedback popups through dedicated Content and Styling panels while viewing all changes instantly in a live mobile preview.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Real-time mobile preview
+* Content customization
 
-## React Compiler
+  * Title and subtitle
+  * Dynamic feedback options
+  * Rating selection (1–5)
+  * Additional comment toggle
+  * Custom submit button text
+* Thank You page configuration
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+  * Media upload support
+  * Title and subtitle customization
+  * Custom button text
+* Styling customization
 
-Note: This will impact Vite dev & build performances.
+  * Background colors
+  * Typography controls
+  * Button styling
+  * Border radius adjustment
+  * Rating color customization
+* Responsive design
+* Reusable React component architecture
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* JavaScript
+* Tailwind CSS
+
+## Installation
+
+```bash
+git clone <repository-url>
+cd csat-builder
+npm install
+npm run dev
+```
+
+## Folder Structure
+
+```text
+src
+│
+├── components
+│   ├── ContentPanel.jsx
+│   ├── StylingPanel.jsx
+│   └── MobilePreview.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Deployment
+
+The application can be deployed on Vercel, Netlify, Render, or Firebase Hosting.
+
+## Author
+
+Bishvajit Singh
